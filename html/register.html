@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>注册</title>
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/jQuerySession.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbar-nav">
+            <span class="wenzi">Movie System Register</span>
+        </div>
+    </div>
+    <div class="wrapper">
+        <form id="log_form" action="" method="post">
+            <div class="registerBox">
+                <div class="registerBoxCenter">
+                    <p><label for="username">用户名：</label></p>
+                    <!-- placeholder提供可描述输入字段预期值的提示信息-->
+                    <p><input type="text" id="user" name="user" class="registerInput"  required="required" autocomplete="off" placeholder="请输入邮箱/手机号" value="" /></p>
+                    <!-- required 规定必需在提交之前填写输入字段-->
+                    <p><label for="password">密码：</label></p>
+                    <p><input type="password" id="pass" name="pass" class="registerInput" required="required" placeholder="请输入密码" value="" /></p>
+                    <p><label for="phonenumber">手机号：</label></p>
+                    <p><input type="text" id="phone" name="phoen" class="registerInput" required="required" placeholder="请输入密码" value="" ></p>
+                </div>
+                <div class="registerBoxButtons">
+                    <button class="registerBtn">注册</button>
+                    <div><a href="./home.html">返回</a></div>
+                </div>
+            </div>
+        </form>
+    </div>
+  <script src="../js/register.js"></script> 
+</body>
+</html>
